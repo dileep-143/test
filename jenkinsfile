@@ -1,0 +1,25 @@
+pipline{
+agent any
+stages{
+stage('Build'){
+steps{
+echo "Build stage is executed successfully..."
+}
+}
+stage('Test'){
+steps{
+echo "Test stage is executed successfully..."
+}
+}
+stage('Deploy'){
+steps{
+echo "Deploy stage is executed successfully..."
+}
+}
+stage('Release'){
+steps{
+echo "Release stage is executed successfully..."
+}
+}
+}
+}
