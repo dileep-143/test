@@ -3,22 +3,27 @@ agent any
 stages{
 stage('Build'){
 steps{
-echo 'Build stage is executed successfully...'
+echo "Build stage is executed successfully..."
 }
 }
 stage('Test'){
 steps{
-echo 'Test stage is executed successfully...'
+echo "Test stage is executed successfully..."
 }
 }
 stage('Deploy'){
 steps{
-echo 'Deploy stage is executed successfully...'
+echo "Deploy stage is executed successfully..."
 }
 }
 stage('Release'){
 steps{
-echo 'Release stage is executed successfully...'
+echo "Release stage is executed successfully..."
+}
+}
+stage('git clone') {
+steps{
+git clone "ssh://git@mywebsite.com/myrepo.git"
 }
 }
 }
