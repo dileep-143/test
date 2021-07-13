@@ -2,17 +2,17 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	
-	<groupId>com.dileep-technologies</groupId>
-	<artifactId>dileep-technologies</artifactId>
+	<groupId>com.posh-technologies</groupId>
+	<artifactId>posh-technologies</artifactId>
 	<packaging>war</packaging>
 	<version>1.3-SNAPSHOT</version>
 	
-	<name>dileep-technologies</name>
+	<name>posh-technologies</name>
 
 	<description>Maven Web App for Java Projects</description>
 
 	<organization>
-		<name>dileep-technologies</name>
+		<name>posh-technologies</name>
 		<url>http://mithuntechnologies.com/</url>
 	</organization>
 
@@ -100,20 +100,20 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>dileep Technologies Releases Nexus Repository</name>
+	      <name>posh Technologies Releases Nexus Repository</name>
 	      <url>http://3.85.131.48:8081/repository/employee-systems-Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>dileep Technologies Snapshot Nexus Repository</name>
+	      <name>posh Technologies Snapshot Nexus Repository</name>
 	      <url>http://3.87.73.8/repository/employee-systems/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
 	
 	<build>
-		<finalName>dileep-technologies</finalName>
+		<finalName>posh-technologies</finalName>
 		
 		<plugins>
 			<plugin>
@@ -133,7 +133,7 @@
 				<configuration>
 					<scanIntervalSeconds>10</scanIntervalSeconds>
 					<webApp>
-						<contextPath>/dileep-technologies</contextPath>
+						<contextPath>/posh-technologies</contextPath>
 					</webApp>
 				</configuration>
 			</plugin>
@@ -146,7 +146,7 @@
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
 					<wtpversion>2.0</wtpversion>
-					<wtpContextName>dileep-technologies</wtpContextName>
+					<wtpContextName>posh-technologies</wtpContextName>
 				</configuration>
 			</plugin>
 			
