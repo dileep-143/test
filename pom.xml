@@ -5,7 +5,7 @@
 	<groupId>com.posh-technologies</groupId>
 	<artifactId>posh-technologies</artifactId>
 	<packaging>war</packaging>
-	<version>1.4-snapshot</version>
+	<version>2.2-RELEASE</version>
 	
 	<name>posh-technologies</name>
 
