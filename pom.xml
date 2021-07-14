@@ -107,7 +107,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>posh Technologies Snapshot Nexus Repository</name>
-	      <url>http://18.213.2.147:8081/repository/maven-snapshots/</url>
+	      <url>http://18.213.2.147:8081/repository/maven-web-app/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
